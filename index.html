@@ -48,11 +48,13 @@
       <h1 class="brand-header">
         <a href="https://steamcommunity.com/groups/voltedcc" target="_BLANK">volted.cc</a>
       </h1>
-
-      <p><span id="brand"></span></p>
-    </div>
-    
-    <h5 id="time"></h5>
+      
+      <h4>
+        <a href=generate.html>Picture generator</a>
+        <a> | </a>
+        <a href=iplocate.html>IP locator</a>
+      </h4>
+      <h5 id="time"></h5>
       <script>
         function displayTime() {
           var date = new Date();
@@ -61,6 +63,9 @@
         }
         setInterval(displayTime, 1000);
       </script>
+
+      <p><span id="brand"></span></p>
+    </div>
 
     <div class="marquee-container" style="visibility: hidden;">
       <pre>|<div id="marquee"></div>|</pre>
@@ -98,16 +103,6 @@
       <i><a href="https://discord.gg/MSgu32t" target="_BLANK">Discord</a></i>
     </div>
     
-    <h5 id="time"></h5>
-      <script>
-        function displayTime() {
-          var date = new Date();
-          var time = date.toLocaleTimeString();
-          document.getElementById("time").innerHTML = time;
-        }
-        setInterval(displayTime, 1000);
-      </script>
-
     <script type="text/javascript" src="assets/javascript/lib/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="assets/javascript/lib/jquery.marquee.min.js"></script>
     <script type="text/javascript" src="assets/javascript/lib/jquery.cookie.min.js"></script>
